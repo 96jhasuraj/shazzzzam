@@ -3,11 +3,14 @@ trying to make music matching work
 
 #### What we will do: 
 We will try 
--[ ] Why dont we try strings like matching  ?
-Plain bad  
-- [ ] Do a CNN-based spectrogram embedding matcher ? 
-- [ ] Build an image-based ORB/SIFT matcher on spectrograms ? 
-- [ ] Implement classic Shazam fingerprinting - read the paper
+
+- [X] Why dont we try strings like matching  ? 
+    *  Plain Bad , but it helps realise that we need time invariant features
+- [X] Do a image-based spectrogram embedding matcher ? 
+    *  Okay so this is called template matching & it fails fot this task , but I had fun
+    * Also i get the intution that we need to look for some signal which remains invariant of noise , maybe SIFT would help
+- [ ] Build an image-based SIFT matcher on spectrograms ? 
+- [ ] Implement Shazam fingerprinting hash
 - [ ] Compare all 3 approaches ( make blog + GitHub)
 
 ## References
